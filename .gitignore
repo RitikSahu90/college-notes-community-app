@@ -1,0 +1,15 @@
+# Java
+*.class
+target/
+*.log
+
+# Node/React
+node_modules/
+.env
+npm-debug.log
+
+# IDE & OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
