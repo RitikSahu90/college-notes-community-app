@@ -1,15 +1,12 @@
-# Java
-*.class
-target/
+
+client/node_modules
+client/build
+
+backend/target
 *.log
 
-# Node/React
-node_modules/
-.env
-npm-debug.log
-
-# IDE & OS
-.idea/
-.vscode/
 .DS_Store
-Thumbs.db
+
+.idea
+*.iml
+.vscode
