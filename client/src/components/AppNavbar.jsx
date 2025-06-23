@@ -6,7 +6,7 @@ const AppNavbar = () => {
   return (
     <Navbar bg="dark" variant="dark">
       <Container>
-        <Navbar.Brand href="#">
+        <Navbar.Brand href="\">
           Welcome <strong>NoteUp</strong>
         </Navbar.Brand>
 
