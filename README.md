@@ -1,5 +1,5 @@
 # 📚 College Notes Community App
-
+Link: https://ritiksahu90.github.io/college-notes-community-app/
 A full-stack web application for students to **upload, browse, and download** academic notes by department and year.
 
 A full-stack application built with:
