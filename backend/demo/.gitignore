@@ -1,6 +1,9 @@
 # === Maven ===
 target/
-
+!.mvn/wrapper/maven-wrapper.jar
+!mvnw
+!mvnw.cmd
+!.mvn/
 
 # === Spring Tool Suite (STS) ===
 .apt_generated
