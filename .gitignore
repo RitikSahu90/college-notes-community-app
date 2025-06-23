@@ -1,0 +1,12 @@
+
+client/node_modules
+client/build
+
+backend/target
+*.log
+
+.DS_Store
+
+.idea
+*.iml
+.vscode

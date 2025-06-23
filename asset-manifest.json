@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/college-notes-community-app/static/css/main.0d6acde6.css",
+    "main.js": "/college-notes-community-app/static/js/main.b8dfc9d6.js",
+    "static/js/453.419a5d54.chunk.js": "/college-notes-community-app/static/js/453.419a5d54.chunk.js",
+    "index.html": "/college-notes-community-app/index.html",
+    "main.0d6acde6.css.map": "/college-notes-community-app/static/css/main.0d6acde6.css.map",
+    "main.b8dfc9d6.js.map": "/college-notes-community-app/static/js/main.b8dfc9d6.js.map",
+    "453.419a5d54.chunk.js.map": "/college-notes-community-app/static/js/453.419a5d54.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0d6acde6.css",
+    "static/js/main.b8dfc9d6.js"
+  ]
+}
