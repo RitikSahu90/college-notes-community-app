@@ -5,6 +5,7 @@ import { NoteProvider } from './context/NoteContext';
 import { Home } from './Pages/Home';
 import { LoginPage } from './Pages/LoginPage';
 import { RegisterPage } from './Pages/RegisterPage';
+import { AboutNotes } from './components/AboutNotes';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <NoteProvider>
         <Routes>
           <Route path="/" element={<Home/>}/>
+          <Route path='/note/:id' element={<AboutNotes/>}/>
           <Route path="/login" element={<LoginPage />} />
           <Route path="/register" element={<RegisterPage />} />
         </Routes>

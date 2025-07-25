@@ -2,6 +2,7 @@
 import React, { useContext } from 'react';
 import { NoteContext } from '../context/NoteContext';
 
+
 const Fillters = () => {
   const { filters, setFilters } = useContext(NoteContext);
   const handleDepartmentChange = (e) => {
@@ -9,7 +10,6 @@ const Fillters = () => {
         setFilters(
           prev => ({...prev,department: e.target.value}));
       };
-
   return (
     <div className="d-flex gap-2 mb-3">
       <select
