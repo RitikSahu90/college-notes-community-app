@@ -4,7 +4,9 @@ import com.example.demo.noteup.backend.model.Department;
 import com.example.demo.noteup.backend.model.Note;
 import com.example.demo.noteup.backend.repository.NoteRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
+import org.springframework.web.server.ResponseStatusException;
 
 import java.sql.Timestamp;
 import java.util.*;
@@ -17,7 +19,7 @@ public class NoteService {
 
     public Note getNoteById(Integer id) {
         return noteRepository.findById(id)
-                .orElseThrow(() -> new RuntimeException("Note not found"));
+                .orElseThrow(() -> new ResponseStatusException(HttpStatus.NOT_FOUND, "Note not found with ID: " + id));
     }
 
     public Note saveNote(Note note) {
